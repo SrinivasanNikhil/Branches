@@ -1,0 +1,60 @@
+Notes:
+
+a. Sequencial execution of code my the combution
+b. now we can create branches, modify the flow of execution of the program or the set of instruction
+c. We do that through the use of if else sattements
+d. if eveluates an expression to be either true or false, if the condition
+
+Show this
+take 2 numbers a = 10, b = 12
+if (a>b)
+	{System.uot.println("a wins");}
+else{System.uot.println("b wins");}
+
+This is not complete, what if they are equal?
+if (a>b)
+	{System.uot.println("a wins");}
+else if(b<a){System.uot.println("b wins");} //once one of the conditions is satisfied then the program pop out of the checking
+else {System.uot.println("a and b are the same");}
+
+
+
+Do this,
+a. Roll 2 16 sided dice , Dice a and b
+b. Inform the user as to which Dice had the larger roll or if the rolls were the same
+
+
+Relational operators == >= <= !=
+
+
+
+ Show this,
+ Take 3 numbers a = 10, b = 25, c = 33
+ Goal want to print which is the greatest
+ 
+ if(a>b && a>c)
+ {
+ }
+ else if(b>a && b>c)
+ {
+ }
+ else if(c>a && c>b)
+ {
+ }
+ else
+ {
+ }
+ 
+ Logical operators && || !
+ 
+ 
+Do this,
+a. Roll 3 16 sided dice , Dice a and b and c
+b. Inform the user as to which Dice had the larger roll or if the rolls were the same
+ 
+ 
+ 
+ 
+ 
+ 
+
