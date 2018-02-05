@@ -52,7 +52,37 @@ Do this,
 a. Roll 3 16 sided dice , Dice a and b and c
 b. Inform the user as to which Dice had the larger roll or if the rolls were the same
  
+ After talking about logical operators and abc work on Ticket Machine example
+ a. introduce a balance on the TM
+ b. introduce putting money into the machine
+ c. how shoudl we print a ticket, only when money is in there
+ d. modify the print ticket method. 
  
+ Cover the use of boolean's to simplify expression writing
+ 
+ For instance having an isPassing boolean that is false and is true only if course grade is greater than a 73
+ 
+ Switch statement
+ Used to compare discrete values i.e constants
+ 
+ switch(variable){
+ case 0:
+ 
+ break;
+ case 1:
+ 
+ break;
+ default:
+ 
+ break;
+ }
+ 
+ String comparisons
+ .equals
+ .equalsIgnoreCase
+ 
+ .charAt(0)
+ .length
  
  
  
