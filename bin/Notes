@@ -62,6 +62,10 @@ b. Inform the user as to which Dice had the larger roll or if the rolls were the
  
  For instance having an isPassing boolean that is false and is true only if course grade is greater than a 73
  
+ show them how to refund the ticket money
+ 
+ Implement a Password to print out money Collections so that money collections is only printed out if people enter a proper password
+ 
  Switch statement
  Used to compare discrete values i.e constants
  
@@ -84,6 +88,29 @@ b. Inform the user as to which Dice had the larger roll or if the rolls were the
  .charAt(0)
  .length
  
+ 
+ //Build a random word generator (5 letter words)
+		
+		//a. have the characters in the word declared
+			
+		final String letters = "abcdefghijklmnopqrstuvwxyz";
+
+		
+		//b. have a random number generator
+		
+		Random rand = new Random();
+		
+		//c. use the random generator to get the charAt a random location based on the number of charecters
+		
+		char char1 = letters.charAt(rand.nextInt(letters.length()));
+		char char2 = letters.charAt(rand.nextInt(letters.length()));
+		char char3 = letters.charAt(rand.nextInt(letters.length()));
+		char char4 = letters.charAt(rand.nextInt(letters.length()));
+		char char5 = letters.charAt(rand.nextInt(letters.length()));
+		
+		//d. concatenate the charecters togeter to get the word
+		
+		System.out.println(""+char1+char2+char3+char4+char5);
  
  
  
