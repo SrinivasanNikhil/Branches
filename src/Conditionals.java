@@ -90,7 +90,7 @@ public class Conditionals {
 		
 		//Build a random word generator (5 letter words)
 		
-		//a. have the characters in the word declared
+		//a. have the characters in the  word declared
 			
 		final String letters = "abcdefghijklmnopqrstuvwxyz";
 
